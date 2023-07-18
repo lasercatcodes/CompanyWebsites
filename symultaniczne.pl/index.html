@@ -8,10 +8,14 @@
 	<meta name="author" content="Tłumacz symultaniczny">
 	<meta name=”keywords” content="Tłumaczenia Symultaniczne Warszawa, Biuro Tłumaczeń Warszawa, Symultaniczne, Tłumaczenia Ustne, Konsekutywne, Tłumaczenia konferencyjne, Tłumaczenia, Tłumaczenia angielski Warszawa, angielski, tour guide">
   
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- font Roboto -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+
+  <!-- font awsome --> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <script src="https://kit.fontawesome.com/2936da3e2d.js" crossorigin="anonymous"></script>
   
   <link rel="icon" type="image/x-icon" href="images/logo2.ico">
@@ -22,40 +26,77 @@
 <body>
   <div class="container">
     <section class="hero">
-      <img src="images/logo.png" alt="logo" class="logo">
-      <p class="logo-text">Proling</p>
-      <div class="hamburger">
-        <span class="line"></span><span class="line"></span><span class="line"></span>
-      </div>
-      <nav>
-        <span class="close">&#10005;</span>
-        <ul class="navigation">
-          <li><a href="#portfolio">O Nas</a></li>
-          <li><a href="#services">Oferta</a></li>
-          <li><a href="#contact">Kontakt</a></li>
-        </ul>
-      </nav>
-      <header>
-        <h1>Tłumaczenie Symultaniczne Warszawa</h1>
-        <p>Świadczymy usługi tłumaczenia symultanicznego wraz z obługą sprzętową konferencji</p>
-      </header>
-  
-      <div class="hero-image"></div>
-      <!-- we need 4 such images -->
-      
-      <div class="white-image"></div>
-      <div class="bottom-right">
-        <div class="headsets">
-          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect x="16" y="12" width="4" height="7" rx="2" stroke="#3e3e3e" stroke-width="2" stroke-linejoin="round"/>
-            <rect x="4" y="12" width="4" height="7" rx="2" stroke="#3e3e3e" stroke-width="2" stroke-linejoin="round"/>
-            <path d="M4 13V16" stroke="#3e3e3e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M20 13V16" stroke="3e3e3e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M20 13C20 10.6131 19.1571 8.32387 17.6569 6.63604C16.1566 4.94821 14.1217 4 12 4C9.87827 4 7.84344 4.94821
-             6.34315 6.63604C4.84286 8.32387 4 10.6131 4 13" stroke="#3e3e3e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-          </svg>
-          <p>Kompleksowa obsługa tłumaczeń symultanicznych</p>
+      <div class="hero-container">
+
+        <div class="logo-menu">
+          <p class="logo-text"><a href="#">Symultaniczne PL</a> <i class="fa-solid fa-headphones"></i></p>
+          <div class="hamburger">
+            <span class="line"></span><span class="line"></span><span class="line"></span>
+          </div>
+          <nav >
+            <span class="close">&#10005; </span>
+            <ul class="navigation">
+              <li><a class="hero-menu-social" href="#portfolio">O Nas</a></li>
+              <li><a class="hero-menu-social" href="#services">Oferta</a></li>
+              <li><a class="hero-menu-social" href="#contact">Kontakt</a></li>
+            </ul>
+          </nav>
+        </div><!-- menu -->
+        
+        <div class="hero-center">
+          <div class="left-hero">
+            <header>
+              <h1>Biuro Tłumaczeń Symultaniczne Pl Warszawa</h1>
+              <p class="hero-paragraph hero-secondary-text">Właściciele firmy od samego początku 
+                są częście zepołu tłumaczy, któy zawsze jest na 
+                miejscu, angażując się, aby tłumaczenia ustne symultaniczne przebiegają bez zakłóceń.  </p>
+            </header>
+            <button class="hero-btn"><a class="hero-menu-social button-link" href="#contact">Wiecej</a><i class="fa-solid fa-arrow-right"></i></button>
+          </div>
+    
+          <div class="right-hero">
+              <div class="img-div one"></div>
+              <div class="img-div two"></div>
+              <div class="img-div three"></div>
+              <div class="img-div four"></div>
+          </div>
         </div>
+
+        <div class="hero-bottom">
+          <div class="socials"><p class="hero-menu-social">Sledź Nas</p><span class="socials-dash"></span><i class="facebook-icon fa-brands fa-facebook-f"></i></div> 
+          <div class="hero-contact">
+            <p class="hero-menu-social">Contact</p><span class="socials-dash"></span>
+            <p class="hero-menu-social">509 662 578</p><span class="socials-dash"></span>
+            <p class="hero-menu-social">jakub.skrzeczkowski [@] gmail.com</p></div>
+        </div>
+        <!--
+          <div class="bottom-right">
+            <div class="headsets">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="16" y="12" width="4" height="7" rx="2" stroke="#3e3e3e" stroke-width="2" stroke-linejoin="round" />
+                <rect x="4" y="12" width="4" height="7" rx="2" stroke="#3e3e3e" stroke-width="2" stroke-linejoin="round" />
+                <path d="M4 13V16" stroke="#3e3e3e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M20 13V16" stroke="3e3e3e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M20 13C20 10.6131 19.1571 8.32387 17.6569 6.63604C16.1566 4.94821 14.1217 4 12 4C9.87827 4 7.84344 4.94821
+                  6.34315 6.63604C4.84286 8.32387 4 10.6131 4 13" stroke="#3e3e3e" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg>
+            </div>
+          </div>
+         -->        
+      </div><!-- hero container -->
+    </section>
+    <!-- sub hero -->
+    <section id="sub-hero">
+      <div class="sub-hero-left">
+        <div class="sub-hero-left-tex-box">
+          <h2 class="sub-hero-left-header">Nasza Misja</h2>
+        </div>
+      </div>
+      <div class="sub-hero-right">
+        <div class="sub-hero-img-small"></div>
+        <div class="sub-hero-img-small"></div>
+        <div class="sub-hero-img-big"></div>
       </div>
     </section>
     <!-- tutaj wstawiamy sub-hreder separator mozna zostawic dla kontentu "warszawa etc" -->    
@@ -319,18 +360,23 @@
 
   <script>
     const nav = document.querySelector('nav'); 
+    const logoMenu = document.querySelector('.logo-menu'); 
     const hamburger = document.querySelector('.hamburger'); 
-    const close = document.querySelector('.close'); 
-    const openNav = ()=> {
-      nav.classList.toggle('openNav'); 
-    }
-    const closeMenu = ()=> {
-      nav.classList.toggle('openNav'); 
-    }
+    const closeCross = document.querySelector('.close'); 
+    console.log("js has been loaded"); 
+    console.log(closeCross); 
+    console.log(hamburger); 
+    console.log(logoMenu); 
+    
+    hamburger.addEventListener('click', ()=> {
+      console.log('open') 
+      nav.classList.add('openNav');
+    }); 
 
-    hamburger.addEventListener('click', openNav); 
-    close.addEventListener('click', closeMenu); 
-
+    closeCross.addEventListener('click', ()=> {
+      console.log('close'); 
+      nav.classList.remove('openNav'); 
+    }); 
 
   </script>
 </body>
